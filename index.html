@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada de Trabalho</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+rel="stylesheet"
+    />
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="content">
+                <h2>Descubra seu dia de folga</h2>
+                <p>Digite aqui seu último dia trabalhado:        
+                </p>
+                <input type="date" id="start" />
+                <p>Digite aqui o dia desejado:</p>
+                <input type="date" id="end" />
+                <button onclick="checar()" id="execute">Verificar</button>
+            </div>
+            <div id="output">
+                <h3>
+                    <span>Este dia será um dia de: </span>
+                  </h3>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>
